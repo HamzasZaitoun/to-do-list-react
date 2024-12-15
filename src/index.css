@@ -1,0 +1,71 @@
+.container
+{
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1
+{
+  font-size: 4em;
+}
+button 
+{
+  padding: 10px 25px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: aliceblue;
+  transition: background-color 0.5s ease;
+  margin-top: 10px;
+  
+}
+input
+{
+  padding: 7px;
+  border-radius: 10px;
+  border-color:  hsl(150, 82%, 59%);
+  color: rgba(31, 32, 31, 0.53);
+}
+ul{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+ 
+}
+li{
+  font-size: 1.5em;
+  border: 1px solid rgba(0, 0, 0, 0.032);
+  background-color: hsla(208, 47%, 80%, 0.1);
+  border-radius: 10px;
+  margin-top:10px;
+}
+.add
+{
+  background-color: hsl(150, 82%, 59%);
+   
+}
+.add:hover
+{
+  background-color: hsl(150, 82%, 39%);
+}
+.delete 
+{
+  background-color: hsl(14, 86%, 52%);
+}
+.delete:hover
+{
+  background-color: hsl(14, 86%, 32%);
+}
+.move 
+{
+  background-color: hsl(203, 61%, 57%);
+}
+.move:hover
+{
+  background-color: hsl(203, 61%, 37%);
+}
+.TODO
+{
+  flex:1;
+}
